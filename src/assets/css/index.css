@@ -6,38 +6,38 @@
 @layer utilities {
   .border-bottom-custom {
     @apply border-b;
-    border-color: rgba(255, 255, 255, 0.1); /* #FFFFFF1A */
+    border-color: rgba(255, 0, 0, 0.1);
   }
 
   .border-bottom-custom-adventage {
-    border: 1.2px solid #A39BD61A;
+    border: 1.2px solid #FF00001A;
   }
 
   .border-bottom-custom2 {
     border-width: 1.2px;
     border-style: solid;
-    border-image-source: linear-gradient(180deg, #D4CDFF 0%, rgba(212, 205, 255, 0.5) 100%);
+    border-image-source: linear-gradient(180deg, #FF0000 0%, rgba(255, 0, 0, 0.5) 100%);
     border-image-slice: 1;
   }
 
   .custom-border-popup {
-    border: 1px solid rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 0, 0, 0.06);
   }
   
   .custom-gradient-text-title {
-    background: linear-gradient(90deg, #FFFFFF 0%, #D4CDFF 100%);
+    background: linear-gradient(90deg, #FFFFFF 0%, #FF0000 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
 
   .custom-gradient-text-title-main {
-    background: linear-gradient(90deg, #DCD7FF 0%, #9088C6 100%);
+    background: linear-gradient(90deg, #FF0000 0%, #CC0000 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
 
   .faq-date-text {
-    background: linear-gradient(90deg, rgba(255, 255, 255, 0.5) 0%, rgba(212, 205, 255, 0.5) 100%);
+    background: linear-gradient(90deg, rgba(255, 0, 0, 0.5) 0%, rgba(255, 0, 0, 0.5) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -50,7 +50,7 @@
   }
 
   html {
-      scrollbar-width: none; /* Firefox */
+      scrollbar-width: none;
   }
 
   body {
@@ -61,5 +61,4 @@
 body {
     font-family: 'SF Pro Display', sans-serif;
     background-color: black;
-
 }
