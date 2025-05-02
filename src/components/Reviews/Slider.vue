@@ -63,35 +63,35 @@ const reviews1 = [
 const reviews = [
     { 
         text: "DW Cleaner quickly and efficiently removes junk files, noticeably speeding up system performance.",
-        avatar: "@/assets/img/ReviewsAvatars/test.jpeg"
+        avatar: "@/assets/img/ReviewsAvatars/test.jpeg",
+        nickname: "@user1"
     },
-
     { 
         text: "Great program that deletes all unnecessary files and frees up a lot of disk space.",
-        avatar: "@/assets/img/ReviewsAvatars/test.jpeg"
+        avatar: "@/assets/img/ReviewsAvatars/test.jpeg",
+        nickname: "@user2"
     },
-
     { 
         text: "Simple and intuitive app that cleans the system in just a few minutes.",
-        avatar: "@/assets/img/ReviewsAvatars/test.jpeg"
+        avatar: "@/assets/img/ReviewsAvatars/test.jpeg",
+        nickname: "@user3"
     },
-
     { 
         text: "DW Cleaner helped me get rid of junk files and improved my PC's performance.",
-        avatar: "@/assets/img/ReviewsAvatars/test.jpeg"
+        avatar: "@/assets/img/ReviewsAvatars/test.jpeg",
+        nickname: "@user4"
     },
-
     { 
         text: "The program effectively cleans even old computers, significantly boosting their speed.",
-        avatar: "@/assets/img/ReviewsAvatars/test.jpeg"
+        avatar: "@/assets/img/ReviewsAvatars/test.jpeg",
+        nickname: "@user5"
     },
-
     { 
         text: "Convenient tool for regularly removing system clutter and keeping your PC clean.",
-        avatar: "@/assets/img/ReviewsAvatars/test.jpeg"
+        avatar: "@/assets/img/ReviewsAvatars/test.jpeg",
+        nickname: "@user6"
     },
 ];
-
 
 onMounted(() => {
   const scrollers = document.querySelectorAll(".scroller");
